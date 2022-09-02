@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Hello = (props)=>{
-    debugger
     console.log(props)
     return (
         <h1>Hello {props.name} {props.number}</h1>
