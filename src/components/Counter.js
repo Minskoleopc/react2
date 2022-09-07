@@ -1,54 +1,54 @@
-import React , {Component, component} from 'react'
+// import React , {Component, component} from 'react'
 
-class Counter extends Component {
-    constructor(){
-        super()
-        this.state = {
-            count:0
-        }
-    }
+// class Counter extends Component {
+//     constructor(){
+//         super()
+//         this.state = {
+//             count:0
+//         }
+//     }
 
-    increment(){
-        // this.state.count = this.state.count + 1
-        // console.log(this.state.count)
-        // Async problem
-        // this.setState({
-        //     count: this.state.count + 1  
-        // })
-        // console.log(this.state.count)
-        // this.setState({
-        //     count: this.state.count + 1  
-        // },()=>{
-        //     console.log(this.state.count)
-        // })
-        //console.log(this.state.count)
+//     increment(){
+//         // this.state.count = this.state.count + 1
+//         // console.log(this.state.count)
+//         // Async problem
+//         // this.setState({
+//         //     count: this.state.count + 1  
+//         // })
+//         // console.log(this.state.count)
+//         this.setState({
+//             count: this.state.count + 1  
+//         },()=>{
+//             console.log(this.state.count)
+//         }),
+//         console.log(this.state.count)
 
-        this.setState((preState)=>({
-                count:preState.count +1
-            }
-        ))
+//         this.setState((preState)=>({
+//                 count:preState.count +1
+//             }
+//         ))
         
-    }
+//     }
 
 
-    incrementFive(){
-        this.increment()
-        this.increment()
-        this.increment()
-        this.increment()
-        this.increment()
-    }
+//     incrementFive(){
+//         this.increment()
+//         this.increment()
+//         this.increment()
+//         this.increment()
+//         this.increment()
+//     }
 
-    render(){
-        return (
+//     render(){
+//         return (
 
-            <div>
-                <h1>{this.state.count}</h1>
-                <button onClick={()=>this.incrementFive()}>PlusOne</button>
-            </div>
+//             <div>
+//                 <h1>{this.state.count}</h1>
+//                 <button onClick={()=>this.incrementFive()}>PlusOne</button>
+//             </div>
 
-        )
-    }
+//         )
+//     }
 
-}
-export default Counter
+// }
+// export default Counter

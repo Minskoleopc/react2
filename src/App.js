@@ -9,21 +9,24 @@ import Wish2 from './components/Wish2';
 import NewC from './components/NewC';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick  from './components/ClassClick';
+import EventBind from './components/EventBind'
 
 function App() {
   return (
     <div className="App">
 
-      <Message /> 
+      {/* <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick> */}
+      <EventBind></EventBind>
+
+
+
+      {/* <Message /> 
       <Counter/>
       <Display2 name = "chinmay" lastName = "deshpande"/>
-      <Wish name = "chinmay" lastName ="two"/>
-
-
-
-
-
-
+      <Wish name = "chinmay" lastName ="two"/> */}
 
 
 
