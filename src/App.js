@@ -12,14 +12,24 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick  from './components/ClassClick';
 import EventBind from './components/EventBind'
+import Greet2  from './components/Greet2';
 
 function App() {
   return (
     <div className="App">
 
+    <Greet2></Greet2>
+
+
+
+
+
+
+
+
       {/* <FunctionClick></FunctionClick>
       <ClassClick></ClassClick> */}
-      <EventBind></EventBind>
+      {/* <EventBind></EventBind> */}
 
 
 
